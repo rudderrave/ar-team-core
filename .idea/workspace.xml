@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62344eb5-2e84-49a6-b6f7-a7361eccdf18" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/controllers/admin/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/admin/BaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/admin/css/admin.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,14 +25,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/admin/BaseController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+            <state relative-caret-position="194">
+              <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
               <folding>
                 <element signature="e#44#76#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layouts/admin/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="38" column="69" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styler.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/admin/css/styler.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/admin/css/admin.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="251" column="16" lean-forward="true" selection-start-line="251" selection-start-column="16" selection-end-line="251" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -67,24 +94,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArteamHelper.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helpers/ArteamHelper.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostgreSQL.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/PostgreSQL.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AuthItemGroup.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/AuthItemGroup.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,6 +120,7 @@
       <find>Yee CMS Core</find>
       <find>Yee</find>
       <find>yee</find>
+      <find>logo</find>
     </findStrings>
     <replaceStrings>
       <replace>AR-team core</replace>
@@ -134,6 +144,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/controllers/admin/BaseController.php" />
+        <option value="$PROJECT_DIR$/assets/admin/css/admin.css" />
       </list>
     </option>
   </component>
@@ -181,6 +192,13 @@
               <item name="ar-team-core" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ar-team-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ar-team-core" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -198,6 +216,24 @@
               <item name="ar-team-core" type="b2602c69:ProjectViewProjectNode" />
               <item name="ar-team-core" type="462c0819:PsiDirectoryNode" />
               <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ar-team-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ar-team-core" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ar-team-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ar-team-core" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ar-team-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ar-team-core" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,18 +278,18 @@
       <workItem from="1586885786824" duration="3043000" />
       <workItem from="1586893274028" duration="1007000" />
       <workItem from="1586894354131" duration="3295000" />
-      <workItem from="1586908837203" duration="846000" />
+      <workItem from="1586908837203" duration="1195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8191000" />
+    <option name="totallyTimeSpent" value="8540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="367" y="23" width="1494" height="1101" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2603306" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2603306" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -262,7 +298,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23751274" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23751274" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -605,11 +641,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/admin/BaseController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+        <state relative-caret-position="194">
+          <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
           <folding>
             <element signature="e#44#76#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/admin/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="38" column="69" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/css/styler.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="251" column="16" lean-forward="true" selection-start-line="251" selection-start-column="16" selection-end-line="251" selection-end-column="16" />
         </state>
       </provider>
     </entry>
