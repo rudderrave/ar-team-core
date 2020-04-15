@@ -61,7 +61,7 @@ abstract class BaseController extends \arteam\controllers\BaseController
      *
      * @var string
      */
-    public $layout = '@vendor/rudderrave/at-team-core/views/layouts/admin/main.php';
+    public $layout = '@vendor/rudderrave/ar-team-core/views/layouts/admin/main.php';
 
     /**
      * Index page view
