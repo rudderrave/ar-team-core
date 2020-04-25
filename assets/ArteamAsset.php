@@ -1,4 +1,12 @@
 <?php
+/**
+ * AR-team
+ * https://ar-team.sytes.net/
+ *
+ * User: Ruslan Oliniychuk
+ * Mail: rudder.rave@gmail.com
+ * Date: 4/25/20
+ */
 
 namespace arteam\assets;
 
@@ -7,34 +15,31 @@ use yii\web\JqueryAsset;
 
 /**
  * Class AR-teamAsset
- * 
+ *
  * @package arteam\core
  */
 class ArteamAsset extends AssetBundle
 {
 
-    public $sourcePath = '@vendor/almasaeed2010/adminlte';
-    public $css = [
-        'dist/css/adminlte.min.css',
-        'arteam/assets/admin/css/site.css'
-    ];
+    public function init()
+    {
+        $this->sourcePath = __DIR__ . '/admin';
 
-    public $js = [
-        'dist/js/adminlte.js',
-        'plugins/bootstrap/js/bootstrap.min.js'
-    ];
+        $this->js = [
+//            'js/admin.js',
+        ];
 
-    public $publishOptions = [
-        "only" => [
-            "dist/js/*",
-            "dist/css/*",
-            "plugins/bootstrap/js/*",
-        ],
+        $this->css = [
+            'css/site.css',
+            'css/widget.css',
+        ];
 
-    ];
+        $this->depends = [
+            JqueryAsset::className(),
+            'yii\web\YiiAsset',
+            'arteam\assets\AdminLteAsset',
+        ];
 
-    public $depends = [
-        'yii\web\YiiAsset',
-        'arteam\assets\FontAwesomeAsset'
-    ];
+        parent::init();
+    }
 }
